@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftjapanesenationalholidays",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/YOCKOW/SwiftJapaneseNationalHolidays",
+      "state" : {
+        "revision" : "a99cede2e1bfbcf00e55b8d6f29ce7846c051134",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

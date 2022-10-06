@@ -1,0 +1,13 @@
+{
+  "data" : [
+    {
+      "filename" : "Timetable_Campus-to-Kotesashi_Weekdays.csv",
+      "idiom" : "universal",
+      "universal-type-identifier" : "public.comma-separated-values-text"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

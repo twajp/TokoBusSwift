@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		555CC3A828A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_Saturdays.csv in Resources */ = {isa = PBXBuildFile; fileRef = 555CC3A028A9CD9B00FA0F8C /* Timetable_2022S_Kotesashi-Campus_Saturdays.csv */; };
+		555CC3A928A9CD9C00FA0F8C /* Timetable_2022S_Campus-Kotesashi_Saturdays.csv in Resources */ = {isa = PBXBuildFile; fileRef = 555CC3A128A9CD9B00FA0F8C /* Timetable_2022S_Campus-Kotesashi_Saturdays.csv */; };
+		555CC3AA28A9CD9C00FA0F8C /* Timetable_2022S_Campus-FRC_Weekdays.csv in Resources */ = {isa = PBXBuildFile; fileRef = 555CC3A228A9CD9B00FA0F8C /* Timetable_2022S_Campus-FRC_Weekdays.csv */; };
+		555CC3AB28A9CD9C00FA0F8C /* Timetable_2022S_Campus-Kotesashi_SundaysHolidays.csv in Resources */ = {isa = PBXBuildFile; fileRef = 555CC3A328A9CD9B00FA0F8C /* Timetable_2022S_Campus-Kotesashi_SundaysHolidays.csv */; };
+		555CC3AC28A9CD9C00FA0F8C /* Timetable_2022S_Campus-Kotesashi_Weekdays.csv in Resources */ = {isa = PBXBuildFile; fileRef = 555CC3A428A9CD9B00FA0F8C /* Timetable_2022S_Campus-Kotesashi_Weekdays.csv */; };
+		555CC3AD28A9CD9C00FA0F8C /* Timetable_2022S_FRC-Campus_Weekdays.csv in Resources */ = {isa = PBXBuildFile; fileRef = 555CC3A528A9CD9B00FA0F8C /* Timetable_2022S_FRC-Campus_Weekdays.csv */; };
+		555CC3AE28A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_SundaysHolidays.csv in Resources */ = {isa = PBXBuildFile; fileRef = 555CC3A628A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_SundaysHolidays.csv */; };
+		555CC3AF28A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_Weekdays.csv in Resources */ = {isa = PBXBuildFile; fileRef = 555CC3A728A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_Weekdays.csv */; };
+		555CC3B228A9CEB800FA0F8C /* Timetable_2022S_FRC-Campus_Saturdays.csv in Resources */ = {isa = PBXBuildFile; fileRef = 555CC3B028A9CEB800FA0F8C /* Timetable_2022S_FRC-Campus_Saturdays.csv */; };
+		555CC3B328A9CEB800FA0F8C /* Timetable_2022S_Campus-FRC_Saturdays.csv in Resources */ = {isa = PBXBuildFile; fileRef = 555CC3B128A9CEB800FA0F8C /* Timetable_2022S_Campus-FRC_Saturdays.csv */; };
+		5598088028C5035D00658907 /* code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598087F28C5035C00658907 /* code.swift */; };
+		5598088528C57EBE00658907 /* SwiftJapaneseNationalHolidays in Frameworks */ = {isa = PBXBuildFile; productRef = 5598088428C57EBE00658907 /* SwiftJapaneseNationalHolidays */; };
+		55BA50B0289DE46E008F7445 /* TokoBusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA50AF289DE46E008F7445 /* TokoBusApp.swift */; };
+		55BA50B2289DE46E008F7445 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA50B1289DE46E008F7445 /* ContentView.swift */; };
+		55BA50B4289DE474008F7445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BA50B3289DE474008F7445 /* Assets.xcassets */; };
+		55BA50B7289DE474008F7445 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BA50B6289DE474008F7445 /* Preview Assets.xcassets */; };
+		55BA50C1289DE475008F7445 /* TokoBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA50C0289DE475008F7445 /* TokoBusTests.swift */; };
+		55BA50CB289DE475008F7445 /* TokoBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA50CA289DE475008F7445 /* TokoBusUITests.swift */; };
+		55BA50CD289DE475008F7445 /* TokoBusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA50CC289DE475008F7445 /* TokoBusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55BA50BD289DE475008F7445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55BA50A4289DE46E008F7445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55BA50AB289DE46E008F7445;
+			remoteInfo = TokoBus;
+		};
+		55BA50C7289DE475008F7445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55BA50A4289DE46E008F7445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55BA50AB289DE46E008F7445;
+			remoteInfo = TokoBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		555CC3A028A9CD9B00FA0F8C /* Timetable_2022S_Kotesashi-Campus_Saturdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022S_Kotesashi-Campus_Saturdays.csv"; sourceTree = "<group>"; };
+		555CC3A128A9CD9B00FA0F8C /* Timetable_2022S_Campus-Kotesashi_Saturdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022S_Campus-Kotesashi_Saturdays.csv"; sourceTree = "<group>"; };
+		555CC3A228A9CD9B00FA0F8C /* Timetable_2022S_Campus-FRC_Weekdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022S_Campus-FRC_Weekdays.csv"; sourceTree = "<group>"; };
+		555CC3A328A9CD9B00FA0F8C /* Timetable_2022S_Campus-Kotesashi_SundaysHolidays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022S_Campus-Kotesashi_SundaysHolidays.csv"; sourceTree = "<group>"; };
+		555CC3A428A9CD9B00FA0F8C /* Timetable_2022S_Campus-Kotesashi_Weekdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022S_Campus-Kotesashi_Weekdays.csv"; sourceTree = "<group>"; };
+		555CC3A528A9CD9B00FA0F8C /* Timetable_2022S_FRC-Campus_Weekdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022S_FRC-Campus_Weekdays.csv"; sourceTree = "<group>"; };
+		555CC3A628A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_SundaysHolidays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022S_Kotesashi-Campus_SundaysHolidays.csv"; sourceTree = "<group>"; };
+		555CC3A728A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_Weekdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022S_Kotesashi-Campus_Weekdays.csv"; sourceTree = "<group>"; };
+		555CC3B028A9CEB800FA0F8C /* Timetable_2022S_FRC-Campus_Saturdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022S_FRC-Campus_Saturdays.csv"; sourceTree = "<group>"; };
+		555CC3B128A9CEB800FA0F8C /* Timetable_2022S_Campus-FRC_Saturdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022S_Campus-FRC_Saturdays.csv"; sourceTree = "<group>"; };
+		5598087F28C5035C00658907 /* code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = code.swift; sourceTree = "<group>"; };
+		55BA50AC289DE46E008F7445 /* TokoBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokoBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BA50AF289DE46E008F7445 /* TokoBusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusApp.swift; sourceTree = "<group>"; };
+		55BA50B1289DE46E008F7445 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55BA50B3289DE474008F7445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55BA50B6289DE474008F7445 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55BA50BC289DE475008F7445 /* TokoBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokoBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BA50C0289DE475008F7445 /* TokoBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusTests.swift; sourceTree = "<group>"; };
+		55BA50C6289DE475008F7445 /* TokoBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokoBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BA50CA289DE475008F7445 /* TokoBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusUITests.swift; sourceTree = "<group>"; };
+		55BA50CC289DE475008F7445 /* TokoBusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55BA50A9289DE46E008F7445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5598088528C57EBE00658907 /* SwiftJapaneseNationalHolidays in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BA50B9289DE475008F7445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BA50C3289DE475008F7445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55BA50A3289DE46E008F7445 = {
+			isa = PBXGroup;
+			children = (
+				55BA50AE289DE46E008F7445 /* TokoBus */,
+				55BA50BF289DE475008F7445 /* TokoBusTests */,
+				55BA50C9289DE475008F7445 /* TokoBusUITests */,
+				55BA50AD289DE46E008F7445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55BA50AD289DE46E008F7445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55BA50AC289DE46E008F7445 /* TokoBus.app */,
+				55BA50BC289DE475008F7445 /* TokoBusTests.xctest */,
+				55BA50C6289DE475008F7445 /* TokoBusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55BA50AE289DE46E008F7445 /* TokoBus */ = {
+			isa = PBXGroup;
+			children = (
+				55BA50D9289F8EF6008F7445 /* TimetableData */,
+				55BA50AF289DE46E008F7445 /* TokoBusApp.swift */,
+				55BA50B1289DE46E008F7445 /* ContentView.swift */,
+				5598087F28C5035C00658907 /* code.swift */,
+				55BA50B3289DE474008F7445 /* Assets.xcassets */,
+				55BA50B5289DE474008F7445 /* Preview Content */,
+			);
+			path = TokoBus;
+			sourceTree = "<group>";
+		};
+		55BA50B5289DE474008F7445 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55BA50B6289DE474008F7445 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55BA50BF289DE475008F7445 /* TokoBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				55BA50C0289DE475008F7445 /* TokoBusTests.swift */,
+			);
+			path = TokoBusTests;
+			sourceTree = "<group>";
+		};
+		55BA50C9289DE475008F7445 /* TokoBusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55BA50CA289DE475008F7445 /* TokoBusUITests.swift */,
+				55BA50CC289DE475008F7445 /* TokoBusUITestsLaunchTests.swift */,
+			);
+			path = TokoBusUITests;
+			sourceTree = "<group>";
+		};
+		55BA50D9289F8EF6008F7445 /* TimetableData */ = {
+			isa = PBXGroup;
+			children = (
+				555CC3A728A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_Weekdays.csv */,
+				555CC3A028A9CD9B00FA0F8C /* Timetable_2022S_Kotesashi-Campus_Saturdays.csv */,
+				555CC3A628A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_SundaysHolidays.csv */,
+				555CC3A428A9CD9B00FA0F8C /* Timetable_2022S_Campus-Kotesashi_Weekdays.csv */,
+				555CC3A128A9CD9B00FA0F8C /* Timetable_2022S_Campus-Kotesashi_Saturdays.csv */,
+				555CC3A328A9CD9B00FA0F8C /* Timetable_2022S_Campus-Kotesashi_SundaysHolidays.csv */,
+				555CC3A228A9CD9B00FA0F8C /* Timetable_2022S_Campus-FRC_Weekdays.csv */,
+				555CC3B128A9CEB800FA0F8C /* Timetable_2022S_Campus-FRC_Saturdays.csv */,
+				555CC3A528A9CD9B00FA0F8C /* Timetable_2022S_FRC-Campus_Weekdays.csv */,
+				555CC3B028A9CEB800FA0F8C /* Timetable_2022S_FRC-Campus_Saturdays.csv */,
+			);
+			path = TimetableData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55BA50AB289DE46E008F7445 /* TokoBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BA50D0289DE475008F7445 /* Build configuration list for PBXNativeTarget "TokoBus" */;
+			buildPhases = (
+				55BA50A8289DE46E008F7445 /* Sources */,
+				55BA50A9289DE46E008F7445 /* Frameworks */,
+				55BA50AA289DE46E008F7445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokoBus;
+			packageProductDependencies = (
+				5598088428C57EBE00658907 /* SwiftJapaneseNationalHolidays */,
+			);
+			productName = TokoBus;
+			productReference = 55BA50AC289DE46E008F7445 /* TokoBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55BA50BB289DE475008F7445 /* TokoBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BA50D3289DE475008F7445 /* Build configuration list for PBXNativeTarget "TokoBusTests" */;
+			buildPhases = (
+				55BA50B8289DE475008F7445 /* Sources */,
+				55BA50B9289DE475008F7445 /* Frameworks */,
+				55BA50BA289DE475008F7445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55BA50BE289DE475008F7445 /* PBXTargetDependency */,
+			);
+			name = TokoBusTests;
+			productName = TokoBusTests;
+			productReference = 55BA50BC289DE475008F7445 /* TokoBusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55BA50C5289DE475008F7445 /* TokoBusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BA50D6289DE475008F7445 /* Build configuration list for PBXNativeTarget "TokoBusUITests" */;
+			buildPhases = (
+				55BA50C2289DE475008F7445 /* Sources */,
+				55BA50C3289DE475008F7445 /* Frameworks */,
+				55BA50C4289DE475008F7445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55BA50C8289DE475008F7445 /* PBXTargetDependency */,
+			);
+			name = TokoBusUITests;
+			productName = TokoBusUITests;
+			productReference = 55BA50C6289DE475008F7445 /* TokoBusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55BA50A4289DE46E008F7445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					55BA50AB289DE46E008F7445 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					55BA50BB289DE475008F7445 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 55BA50AB289DE46E008F7445;
+					};
+					55BA50C5289DE475008F7445 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 55BA50AB289DE46E008F7445;
+					};
+				};
+			};
+			buildConfigurationList = 55BA50A7289DE46E008F7445 /* Build configuration list for PBXProject "TokoBus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55BA50A3289DE46E008F7445;
+			packageReferences = (
+				5598088328C57EBE00658907 /* XCRemoteSwiftPackageReference "SwiftJapaneseNationalHolidays" */,
+			);
+			productRefGroup = 55BA50AD289DE46E008F7445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55BA50AB289DE46E008F7445 /* TokoBus */,
+				55BA50BB289DE475008F7445 /* TokoBusTests */,
+				55BA50C5289DE475008F7445 /* TokoBusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55BA50AA289DE46E008F7445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555CC3AB28A9CD9C00FA0F8C /* Timetable_2022S_Campus-Kotesashi_SundaysHolidays.csv in Resources */,
+				55BA50B7289DE474008F7445 /* Preview Assets.xcassets in Resources */,
+				555CC3AF28A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_Weekdays.csv in Resources */,
+				555CC3AE28A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_SundaysHolidays.csv in Resources */,
+				555CC3A828A9CD9C00FA0F8C /* Timetable_2022S_Kotesashi-Campus_Saturdays.csv in Resources */,
+				555CC3AC28A9CD9C00FA0F8C /* Timetable_2022S_Campus-Kotesashi_Weekdays.csv in Resources */,
+				555CC3AD28A9CD9C00FA0F8C /* Timetable_2022S_FRC-Campus_Weekdays.csv in Resources */,
+				555CC3B228A9CEB800FA0F8C /* Timetable_2022S_FRC-Campus_Saturdays.csv in Resources */,
+				555CC3B328A9CEB800FA0F8C /* Timetable_2022S_Campus-FRC_Saturdays.csv in Resources */,
+				555CC3A928A9CD9C00FA0F8C /* Timetable_2022S_Campus-Kotesashi_Saturdays.csv in Resources */,
+				555CC3AA28A9CD9C00FA0F8C /* Timetable_2022S_Campus-FRC_Weekdays.csv in Resources */,
+				55BA50B4289DE474008F7445 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BA50BA289DE475008F7445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BA50C4289DE475008F7445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55BA50A8289DE46E008F7445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5598088028C5035D00658907 /* code.swift in Sources */,
+				55BA50B2289DE46E008F7445 /* ContentView.swift in Sources */,
+				55BA50B0289DE46E008F7445 /* TokoBusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BA50B8289DE475008F7445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BA50C1289DE475008F7445 /* TokoBusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BA50C2289DE475008F7445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BA50CD289DE475008F7445 /* TokoBusUITestsLaunchTests.swift in Sources */,
+				55BA50CB289DE475008F7445 /* TokoBusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55BA50BE289DE475008F7445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55BA50AB289DE46E008F7445 /* TokoBus */;
+			targetProxy = 55BA50BD289DE475008F7445 /* PBXContainerItemProxy */;
+		};
+		55BA50C8289DE475008F7445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55BA50AB289DE46E008F7445 /* TokoBus */;
+			targetProxy = 55BA50C7289DE475008F7445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55BA50CE289DE475008F7445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55BA50CF289DE475008F7445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55BA50D1289DE475008F7445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TokoBus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.twa.TokoBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55BA50D2289DE475008F7445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TokoBus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.twa.TokoBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55BA50D4289DE475008F7445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.twa.TokoBusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokoBus.app/TokoBus";
+			};
+			name = Debug;
+		};
+		55BA50D5289DE475008F7445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.twa.TokoBusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokoBus.app/TokoBus";
+			};
+			name = Release;
+		};
+		55BA50D7289DE475008F7445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.twa.TokoBusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokoBus;
+			};
+			name = Debug;
+		};
+		55BA50D8289DE475008F7445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.twa.TokoBusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokoBus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55BA50A7289DE46E008F7445 /* Build configuration list for PBXProject "TokoBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BA50CE289DE475008F7445 /* Debug */,
+				55BA50CF289DE475008F7445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BA50D0289DE475008F7445 /* Build configuration list for PBXNativeTarget "TokoBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BA50D1289DE475008F7445 /* Debug */,
+				55BA50D2289DE475008F7445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BA50D3289DE475008F7445 /* Build configuration list for PBXNativeTarget "TokoBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BA50D4289DE475008F7445 /* Debug */,
+				55BA50D5289DE475008F7445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BA50D6289DE475008F7445 /* Build configuration list for PBXNativeTarget "TokoBusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BA50D7289DE475008F7445 /* Debug */,
+				55BA50D8289DE475008F7445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5598088328C57EBE00658907 /* XCRemoteSwiftPackageReference "SwiftJapaneseNationalHolidays" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/YOCKOW/SwiftJapaneseNationalHolidays";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5598088428C57EBE00658907 /* SwiftJapaneseNationalHolidays */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5598088328C57EBE00658907 /* XCRemoteSwiftPackageReference "SwiftJapaneseNationalHolidays" */;
+			productName = SwiftJapaneseNationalHolidays;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 55BA50A4289DE46E008F7445 /* Project object */;
+}
