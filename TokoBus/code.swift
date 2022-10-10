@@ -155,8 +155,12 @@ class MakeTimetable : ObservableObject{
         dateFormatter.allowedUnits = [.hour, .minute, .second]
         //dateFormatter.includesTimeRemainingPhrase = true  //「残り/remaining」をつけるかつけないか
         
-        print(dateFormatter.string(from: time)!)
+        // 日本語表記に固定
+        var calender = Calendar.current
+        calender.locale = Locale(identifier: "ja_JP")
+        dateFormatter.calendar = calender
         
+        print(dateFormatter.string(from: time)!)
         return dateFormatter.string(from: time)!
     }
 }
