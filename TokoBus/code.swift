@@ -54,6 +54,7 @@ class MakeTimetable : ObservableObject{
                 print(error.localizedDescription)
             }
         }
+        csvArray.removeLast()
         return csvArray
     }
     
