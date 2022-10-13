@@ -60,20 +60,20 @@ struct ContentView: View {
             
             if japaneseNationalHolidayName(forYear: current.component(.year, from: Date()), month: current.component(.month, from: Date()), day: current.component(.day, from: Date())) != nil || dayOfWeek == 1{
                 // 日曜日か祝日
-                busStaCamp.fileName = "Timetable_2022S_Kotesashi-Campus_SundaysHolidays"
-                busCampSta.fileName = "Timetable_2022S_Campus-Kotesashi_SundaysHolidays"
+                busStaCamp.fileName = "Timetable_2022A_Kotesashi-Campus_SundaysHolidays"
+                busCampSta.fileName = "Timetable_2022A_Campus-Kotesashi_SundaysHolidays"
             } else if dayOfWeek >= 2 && dayOfWeek <= 6 {
                 // 平日
-                busStaCamp.fileName = "Timetable_2022S_Kotesashi-Campus_Weekdays"
-                busCampSta.fileName = "Timetable_2022S_Campus-Kotesashi_Weekdays"
-                busCampFRC.fileName = "Timetable_2022S_Campus-FRC_Weekdays"
-                busFRCCamp.fileName = "Timetable_2022S_FRC-Campus_Weekdays"
+                busStaCamp.fileName = "Timetable_2022A_Kotesashi-Campus_Weekdays"
+                busCampSta.fileName = "Timetable_2022A_Campus-Kotesashi_Weekdays"
+                busCampFRC.fileName = "Timetable_2022A_Campus-FRC_Weekdays"
+                busFRCCamp.fileName = "Timetable_2022A_FRC-Campus_Weekdays"
             } else if dayOfWeek == 7 {
                 // 土曜日
-                busStaCamp.fileName = "Timetable_2022S_Kotesashi-Campus_Saturdays"
-                busCampSta.fileName = "Timetable_2022S_Campus-Kotesashi_Saturdays"
-                busCampFRC.fileName = "Timetable_2022S_Campus-FRC_Saturdays"
-                busFRCCamp.fileName = "Timetable_2022S_FRC-Campus_Saturdays"
+                busStaCamp.fileName = "Timetable_2022A_Kotesashi-Campus_Saturdays"
+                busCampSta.fileName = "Timetable_2022A_Campus-Kotesashi_Saturdays"
+                busCampFRC.fileName = "Timetable_2022A_Campus-FRC_Saturdays"
+                busFRCCamp.fileName = "Timetable_2022A_FRC-Campus_Saturdays"
             }
             
             busStaCamp.main()
