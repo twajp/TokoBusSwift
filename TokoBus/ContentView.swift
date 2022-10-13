@@ -2,6 +2,8 @@ import SwiftUI
 import JapaneseNationalHolidays
 
 struct ContentView: View {
+    let screenSize = UIScreen.main.bounds
+    
     @State var selectedTag = 1
     
     @State var staCampShow: Bool = false
@@ -29,7 +31,8 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selectedTag) {
-            EachTabView(busGo: busStaCamp,
+            EachTabView(screenSize: screenSize,
+                        busGo: busStaCamp,
                         busBack: busCampSta,
                         goShow: $staCampShow,
                         backShow: $campStaShow,
@@ -40,7 +43,8 @@ struct ContentView: View {
                         label4: label4Sta
             ).tag(1)
             
-            EachTabView(busGo: busCampFRC,
+            EachTabView(screenSize: screenSize,
+                        busGo: busCampFRC,
                         busBack: busFRCCamp,
                         goShow: $campFRCShow,
                         backShow: $fRCCampShow,
@@ -86,6 +90,8 @@ struct ContentView: View {
 
 
 struct EachTabView: View {
+    let screenSize: CGRect
+    
     @ObservedObject var busGo: MakeTimetable
     @ObservedObject var busBack: MakeTimetable
     @Binding var goShow: Bool
@@ -100,16 +106,18 @@ struct EachTabView: View {
     var body: some View {
         ZStack {
             Color("background").ignoresSafeArea()
-            VStack(alignment: .center, spacing: 15.0) {
+            VStack(alignment: .center, spacing: screenSize.height*0.0176) { //15
                 Spacer()
-                EachBusView(isShow: $goShow,
+                EachBusView(screenSize: screenSize,
+                            isShow: $goShow,
                             timetable: busGo,
                             title: titleGo,
                             label3: label3Go,
                             label4: label4
                 )
                 Spacer()
-                EachBusView(isShow: $backShow,
+                EachBusView(screenSize: screenSize,
+                            isShow: $backShow,
                             timetable: busBack,
                             title: titleBack,
                             label3: label3Back,
@@ -122,6 +130,8 @@ struct EachTabView: View {
 }
 
 struct EachBusView: View {
+    let screenSize: CGRect
+    
     @Binding var isShow: Bool // 親ビューの変数isShowとバインディングする
     @ObservedObject var timetable: MakeTimetable
     
@@ -136,32 +146,51 @@ struct EachBusView: View {
             VStack() {
                 Text(title).font(.title)
                 HStack(spacing: 0) {
-                    VStack(alignment: .center, spacing: 30) {
+                    VStack(alignment: .center, spacing: screenSize.height*0.035) { //30
                         Text("発車時刻")
-                        Text(timetable.busTime[0]).frame(width: 70)
-                        Text(timetable.busTime[1]).frame(width: 70, height: 40).background(Color("highlight"))
-                        Text(timetable.busTime[2]).frame(width: 70)
+                        Text(timetable.busTime[0])
+                            .frame(width: screenSize.width*0.178)
+                        Text(timetable.busTime[1])
+                            .frame(width: screenSize.width*0.178, height: screenSize.height*0.047) //70 40
+                            .background(Color("highlight"))
+                        Text(timetable.busTime[2])
+                            .frame(width: screenSize.width*0.178)
                     }
-                    VStack(alignment: .center, spacing: 30) {
+                    VStack(alignment: .center, spacing: screenSize.height*0.035) { //30
                         Text("残り時間")
-                        Text(timetable.countdownText[0]).lineLimit(1).frame(width: 150)
-                        Text(timetable.countdownText[1]).lineLimit(1).frame(width: 150, height: 40).background(Color("highlight"))
-                        Text(timetable.countdownText[2]).lineLimit(1).frame(width: 150)
+                        Text(timetable.countdownText[0])
+                            .lineLimit(1)
+                            .frame(width: screenSize.width*0.38)
+                        Text(timetable.countdownText[1])
+                            .lineLimit(1)
+                            .frame(width: screenSize.width*0.38, height: screenSize.height*0.047) //150 40
+                            .background(Color("highlight"))
+                        Text(timetable.countdownText[2])
+                            .lineLimit(1)
+                            .frame(width: screenSize.width*0.38)
                     }
-                    VStack(alignment: .center, spacing: 30) {
+                    VStack(alignment: .center, spacing: screenSize.height*0.035) { //30
                         Text(label3)
-                        Text(timetable.location[0]).frame(width: 65)
-                        Text(timetable.location[1]).frame(width: 65, height: 40).background(Color("highlight"))
-                        Text(timetable.location[2]).frame(width: 65)
+                        Text(timetable.location[0])
+                            .frame(width: screenSize.width*0.175)
+                        Text(timetable.location[1])
+                            .frame(width: screenSize.width*0.175, height: screenSize.height*0.047) //65 40
+                            .background(Color("highlight"))
+                        Text(timetable.location[2])
+                            .frame(width: screenSize.width*0.175)
                     }
-                    VStack(alignment: .center, spacing: 30) {
+                    VStack(alignment: .center, spacing: screenSize.height*0.035) { //30
                         Text(label4)
-                        Text(timetable.wheelchair[0]).frame(width: 65)
-                        Text(timetable.wheelchair[1]).frame(width: 65, height: 40).background(Color("highlight"))
-                        Text(timetable.wheelchair[2]).frame(width: 65)
+                        Text(timetable.wheelchair[0])
+                            .frame(width: screenSize.width*0.16)
+                        Text(timetable.wheelchair[1])
+                            .frame(width: screenSize.width*0.16, height: screenSize.height*0.047) //65 40
+                            .background(Color("highlight"))
+                        Text(timetable.wheelchair[2])
+                            .frame(width: screenSize.width*0.16)
                     }
                 }
-                .frame(width: 350+20, height: 200+30)
+                .frame(width: screenSize.width*(0.178+0.38+0.175+0.16)*1.05, height: screenSize.height*(0.035+0.047)*3*1.15) //350+20 200+30
                 .background(Color(UIColor.tertiarySystemBackground))
                 .padding()
             }
