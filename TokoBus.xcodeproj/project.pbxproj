@@ -61,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5541083528F9D94600AA379F /* TokoBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokoBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555CC3A028A9CD9B00FA0F8C /* Timetable_2022A_Kotesashi-Campus_Saturdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022A_Kotesashi-Campus_Saturdays.csv"; sourceTree = "<group>"; };
 		555CC3A128A9CD9B00FA0F8C /* Timetable_2022A_Campus-Kotesashi_Saturdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022A_Campus-Kotesashi_Saturdays.csv"; sourceTree = "<group>"; };
 		555CC3A228A9CD9B00FA0F8C /* Timetable_2022A_Campus-FRC_Weekdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022A_Campus-FRC_Weekdays.csv"; sourceTree = "<group>"; };
@@ -72,14 +73,13 @@
 		555CC3B028A9CEB800FA0F8C /* Timetable_2022A_FRC-Campus_Saturdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022A_FRC-Campus_Saturdays.csv"; sourceTree = "<group>"; };
 		555CC3B128A9CEB800FA0F8C /* Timetable_2022A_Campus-FRC_Saturdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022A_Campus-FRC_Saturdays.csv"; sourceTree = "<group>"; };
 		5598087F28C5035C00658907 /* code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = code.swift; sourceTree = "<group>"; };
-		55BA50AC289DE46E008F7445 /* TokoBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokoBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BA50AF289DE46E008F7445 /* TokoBusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusApp.swift; sourceTree = "<group>"; };
 		55BA50B1289DE46E008F7445 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55BA50B3289DE474008F7445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55BA50B6289DE474008F7445 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		55BA50BC289DE475008F7445 /* TokoBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokoBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BA50BC289DE475008F7445 /* TokoBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TokoBusTests.xctest; path = "/Users/tomoki/Library/CloudStorage/OneDrive-個人用/ドキュメント/学校/早大/3年1学期 - OneDrive/専門ゼミI（生活人間工学）/時刻表アプリ作成プロジェクト/TokoBus/build/Debug-iphoneos/TokoBusTests.xctest"; sourceTree = "<absolute>"; };
 		55BA50C0289DE475008F7445 /* TokoBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusTests.swift; sourceTree = "<group>"; };
-		55BA50C6289DE475008F7445 /* TokoBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokoBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BA50C6289DE475008F7445 /* TokoBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TokoBusUITests.xctest; path = "/Users/tomoki/Library/CloudStorage/OneDrive-個人用/ドキュメント/学校/早大/3年1学期 - OneDrive/専門ゼミI（生活人間工学）/時刻表アプリ作成プロジェクト/TokoBus/build/Debug-iphoneos/TokoBusUITests.xctest"; sourceTree = "<absolute>"; };
 		55BA50CA289DE475008F7445 /* TokoBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusUITests.swift; sourceTree = "<group>"; };
 		55BA50CC289DE475008F7445 /* TokoBusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,18 +116,8 @@
 				55BA50AE289DE46E008F7445 /* TokoBus */,
 				55BA50BF289DE475008F7445 /* TokoBusTests */,
 				55BA50C9289DE475008F7445 /* TokoBusUITests */,
-				55BA50AD289DE46E008F7445 /* Products */,
+				5541083528F9D94600AA379F /* TokoBus.app */,
 			);
-			sourceTree = "<group>";
-		};
-		55BA50AD289DE46E008F7445 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				55BA50AC289DE46E008F7445 /* TokoBus.app */,
-				55BA50BC289DE475008F7445 /* TokoBusTests.xctest */,
-				55BA50C6289DE475008F7445 /* TokoBusUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		55BA50AE289DE46E008F7445 /* TokoBus */ = {
@@ -206,7 +196,7 @@
 				5598088428C57EBE00658907 /* SwiftJapaneseNationalHolidays */,
 			);
 			productName = TokoBus;
-			productReference = 55BA50AC289DE46E008F7445 /* TokoBus.app */;
+			productReference = 5541083528F9D94600AA379F /* TokoBus.app */;
 			productType = "com.apple.product-type.application";
 		};
 		55BA50BB289DE475008F7445 /* TokoBusTests */ = {
@@ -280,7 +270,7 @@
 			packageReferences = (
 				5598088328C57EBE00658907 /* XCRemoteSwiftPackageReference "SwiftJapaneseNationalHolidays" */,
 			);
-			productRefGroup = 55BA50AD289DE46E008F7445 /* Products */;
+			productRefGroup = 55BA50A3289DE46E008F7445;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -491,8 +481,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "TokoBus/TimetableData TokoBus/Preview\\ Content";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "TokoBus/Preview\\ Content";
 				DEVELOPMENT_TEAM = W8WSSQ7VC8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -521,8 +511,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "TokoBus/TimetableData TokoBus/Preview\\ Content";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "TokoBus/Preview\\ Content";
 				DEVELOPMENT_TEAM = W8WSSQ7VC8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
