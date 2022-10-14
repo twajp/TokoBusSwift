@@ -135,15 +135,19 @@ class MakeTimetable : ObservableObject{
                 //最終便の後の場合
                 busTime[0] = timetableOrg[busNumber-1][0]
                 busTime[1] = "-"
+                busTime[2] = "-"
                 
                 countdownText[0] = ConvertCountdown(timeRemain: countdownArray[busNumber-1])
                 countdownText[1] = "-"
+                countdownText[2] = "-"
                 
                 location[0] = timetableOrg[busNumber-1][1]
                 location[1] = "-"
+                location[2] = "-"
                 
                 wheelchair[0] = timetableOrg[busNumber-1][2]
                 wheelchair[1] = "-"
+                wheelchair[2] = "-"
             }
         }
     }
