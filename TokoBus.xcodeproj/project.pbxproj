@@ -22,6 +22,7 @@
 		557DC31828FE55FF00CCE2FF /* support.html in Resources */ = {isa = PBXBuildFile; fileRef = 557DC31428FE55FF00CCE2FF /* support.html */; };
 		557DC31928FE55FF00CCE2FF /* PrivacyPolicy.html in Resources */ = {isa = PBXBuildFile; fileRef = 557DC31528FE55FF00CCE2FF /* PrivacyPolicy.html */; };
 		557DC31A28FE55FF00CCE2FF /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 557DC31628FE55FF00CCE2FF /* style.css */; };
+		557DC31C28FE575D00CCE2FF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 557DC31B28FE575C00CCE2FF /* README.md */; };
 		5598088028C5035D00658907 /* code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598087F28C5035C00658907 /* code.swift */; };
 		5598088528C57EBE00658907 /* SwiftJapaneseNationalHolidays in Frameworks */ = {isa = PBXBuildFile; productRef = 5598088428C57EBE00658907 /* SwiftJapaneseNationalHolidays */; };
 		55BA50B0289DE46E008F7445 /* TokoBusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA50AF289DE46E008F7445 /* TokoBusApp.swift */; };
@@ -75,13 +76,12 @@
 		555CC3A728A9CD9C00FA0F8C /* Timetable_2022A_Kotesashi-Campus_Weekdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022A_Kotesashi-Campus_Weekdays.csv"; sourceTree = "<group>"; };
 		555CC3B028A9CEB800FA0F8C /* Timetable_2022A_FRC-Campus_Saturdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022A_FRC-Campus_Saturdays.csv"; sourceTree = "<group>"; };
 		555CC3B128A9CEB800FA0F8C /* Timetable_2022A_Campus-FRC_Saturdays.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Timetable_2022A_Campus-FRC_Saturdays.csv"; sourceTree = "<group>"; };
-		557DC30D28FE551400CCE2FF /* TokoBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TokoBus.app; path = "/Users/tomoki/Library/CloudStorage/OneDrive-個人用/ドキュメント/学校/早大/3年1学期 - OneDrive/専門ゼミI（生活人間工学）/時刻表アプリ作成プロジェクト/TokoBus/build/Debug-iphoneos/TokoBus.app"; sourceTree = "<absolute>"; };
-		557DC31028FE55D700CCE2FF /* TokoBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TokoBusTests.xctest; path = "/Users/tomoki/Library/CloudStorage/OneDrive-個人用/ドキュメント/学校/早大/3年1学期 - OneDrive/専門ゼミI（生活人間工学）/時刻表アプリ作成プロジェクト/TokoBus/build/Debug-iphoneos/TokoBusTests.xctest"; sourceTree = "<absolute>"; };
-		557DC31128FE55D700CCE2FF /* TokoBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TokoBusUITests.xctest; path = "/Users/tomoki/Library/CloudStorage/OneDrive-個人用/ドキュメント/学校/早大/3年1学期 - OneDrive/専門ゼミI（生活人間工学）/時刻表アプリ作成プロジェクト/TokoBus/build/Debug-iphoneos/TokoBusUITests.xctest"; sourceTree = "<absolute>"; };
 		557DC31328FE55FF00CCE2FF /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		557DC31428FE55FF00CCE2FF /* support.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = support.html; sourceTree = "<group>"; };
 		557DC31528FE55FF00CCE2FF /* PrivacyPolicy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PrivacyPolicy.html; sourceTree = "<group>"; };
 		557DC31628FE55FF00CCE2FF /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		557DC31B28FE575C00CCE2FF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		557DC31D28FE578400CCE2FF /* TokoBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokoBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5598087F28C5035C00658907 /* code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = code.swift; sourceTree = "<group>"; };
 		55BA50AF289DE46E008F7445 /* TokoBusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusApp.swift; sourceTree = "<group>"; };
 		55BA50B1289DE46E008F7445 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +90,8 @@
 		55BA50C0289DE475008F7445 /* TokoBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusTests.swift; sourceTree = "<group>"; };
 		55BA50CA289DE475008F7445 /* TokoBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusUITests.swift; sourceTree = "<group>"; };
 		55BA50CC289DE475008F7445 /* TokoBusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoBusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55EBFD0C28FE5D7800C13AE0 /* TokoBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TokoBusTests.xctest; path = "/Users/tomoki/Library/CloudStorage/OneDrive-個人用/ドキュメント/学校/早大/3年1学期 - OneDrive/専門ゼミI（生活人間工学）/時刻表アプリ作成プロジェクト/TokoBus/build/Debug-iphoneos/TokoBusTests.xctest"; sourceTree = "<absolute>"; };
+		55EBFD0D28FE5D7800C13AE0 /* TokoBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TokoBusUITests.xctest; path = "/Users/tomoki/Library/CloudStorage/OneDrive-個人用/ドキュメント/学校/早大/3年1学期 - OneDrive/専門ゼミI（生活人間工学）/時刻表アプリ作成プロジェクト/TokoBus/build/Debug-iphoneos/TokoBusUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +120,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		557DC31228FE55FF00CCE2FF /* html */ = {
+		557DC31228FE55FF00CCE2FF /* doc */ = {
 			isa = PBXGroup;
 			children = (
 				557DC31328FE55FF00CCE2FF /* index.html */,
@@ -126,7 +128,7 @@
 				557DC31528FE55FF00CCE2FF /* PrivacyPolicy.html */,
 				557DC31628FE55FF00CCE2FF /* style.css */,
 			);
-			path = html;
+			path = doc;
 			sourceTree = "<group>";
 		};
 		55BA50A3289DE46E008F7445 = {
@@ -135,7 +137,9 @@
 				55BA50AE289DE46E008F7445 /* TokoBus */,
 				55BA50BF289DE475008F7445 /* TokoBusTests */,
 				55BA50C9289DE475008F7445 /* TokoBusUITests */,
-				557DC31228FE55FF00CCE2FF /* html */,
+				557DC31228FE55FF00CCE2FF /* doc */,
+				557DC31B28FE575C00CCE2FF /* README.md */,
+				557DC31D28FE578400CCE2FF /* TokoBus.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,7 +219,7 @@
 				5598088428C57EBE00658907 /* SwiftJapaneseNationalHolidays */,
 			);
 			productName = TokoBus;
-			productReference = 557DC30D28FE551400CCE2FF /* TokoBus.app */;
+			productReference = 557DC31D28FE578400CCE2FF /* TokoBus.app */;
 			productType = "com.apple.product-type.application";
 		};
 		55BA50BB289DE475008F7445 /* TokoBusTests */ = {
@@ -233,7 +237,7 @@
 			);
 			name = TokoBusTests;
 			productName = TokoBusTests;
-			productReference = 557DC31028FE55D700CCE2FF /* TokoBusTests.xctest */;
+			productReference = 55EBFD0C28FE5D7800C13AE0 /* TokoBusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		55BA50C5289DE475008F7445 /* TokoBusUITests */ = {
@@ -251,7 +255,7 @@
 			);
 			name = TokoBusUITests;
 			productName = TokoBusUITests;
-			productReference = 557DC31128FE55D700CCE2FF /* TokoBusUITests.xctest */;
+			productReference = 55EBFD0D28FE5D7800C13AE0 /* TokoBusUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -316,6 +320,7 @@
 				557DC31928FE55FF00CCE2FF /* PrivacyPolicy.html in Resources */,
 				555CC3AC28A9CD9C00FA0F8C /* Timetable_2022A_Campus-Kotesashi_Weekdays.csv in Resources */,
 				555CC3AD28A9CD9C00FA0F8C /* Timetable_2022A_FRC-Campus_Weekdays.csv in Resources */,
+				557DC31C28FE575D00CCE2FF /* README.md in Resources */,
 				555CC3B228A9CEB800FA0F8C /* Timetable_2022A_FRC-Campus_Saturdays.csv in Resources */,
 				555CC3B328A9CEB800FA0F8C /* Timetable_2022A_Campus-FRC_Saturdays.csv in Resources */,
 				555CC3A928A9CD9C00FA0F8C /* Timetable_2022A_Campus-Kotesashi_Saturdays.csv in Resources */,
@@ -505,7 +510,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_ASSET_PATHS = "html TokoBus/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "README.md html TokoBus/Preview\\ Content";
 				DEVELOPMENT_TEAM = W8WSSQ7VC8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -535,7 +540,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_ASSET_PATHS = "html TokoBus/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "README.md html TokoBus/Preview\\ Content";
 				DEVELOPMENT_TEAM = W8WSSQ7VC8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
