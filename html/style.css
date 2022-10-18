@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/* 余白無し */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* フォント */
+body {
+    font-size: 0.85em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* レイアウト */
+
+#wrapper {
+    text-align: left;
+    margin: 1em auto 0;
+    width: 90%;
+    border: 1px solid #CCCCCC;
+}
+
+#header {
+    padding: 20px 20px 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#globalnavi {
+    width: 100%;
+    position: relative;
+}
+
+#container {
+    float: right;
+    width: 100%;
+    margin-left: -200px;
+}
+
+#contents {
+    margin-left: 0px;
+    padding: 4em 30px 4em 29px;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+}
+
+
+/* ヘッダー */
+
+/* 見出しh1 */
+h1 {
+    text-align: right;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* サイト名 */
+.logo {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.logo a {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #9B003F;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #ff0000;
+}
+
+/* globalnavi */
+
+#globalnavi ul {
+    width: 100%;
+    list-style-type: none;
+    position: absolute;
+    background-color: #9B003F;
+}
+
+#globalnavi li {
+    width: auto;
+    float: left;
+    border-right: 2px groove #CCCCCC;
+}
+
+#globalnavi li a {
+    text-decoration: none;
+    display: block;
+    width: auto;
+    padding: 0.5em 1em;
+    background-color: #9B003F;
+    color: #FFFFFF;
+}
+
+#globalnavi li a:hover {
+    background-color: #CCCCCC;
+    color: #000000;
+}
+
+/* 本文 */
+/* 見出し */
+h2,h3,h4,h5,h6 {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    padding: 5px 0 5px 5px;
+    border-left: 10px solid #9B003F;
+    border-bottom: 1px solid #9B003F;
+}
+
+h3,h4,h5,h6 { margin-top: 2.5em; }
+
+/* 文字 */
+#contents p {
+    line-height: 1.6em;
+    margin-bottom: 0.5em;
+}
+
+/* パス */
+#contents .topic-path {
+    line-height: 1em;
+    margin-bottom: 2em;
+}
+
+/* 写真の拡大 */
+.image {
+    transition: all 500ms 0s ease;
+    width : 50vw
+}
+.on {
+    width : 75vw
+}
+.off {
+    width : 50vw
+}
